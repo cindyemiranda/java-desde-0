@@ -1,16 +1,21 @@
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class MainClass {
 
 	public static void main(String[] args) {
+		
+		/**
 		System.out.println("I like fried Chicken!!!");
 		System.out.println("It tastes really good!!!");
 		System.out.println();
 		System.out.println();
+		**/
+		
 		/**
 		 * Tutorial #2 Variables
 		 */
-		//Asignements
+		/**
 		
 		int x = 123; // declarations
 		long xl= 1928292829282928232L;
@@ -27,10 +32,13 @@ public class MainClass {
 		System.out.println("Hello, my name is: "+name);
 		System.out.println();
 		System.out.println();
+		**/
+		
 		/**
 		 * Tutorial #3 Swap two variable
 		 */
-		//Asignements
+		
+		/**
 		String s_water="water";
 		String s_kool_aid= "Kool-aid";
 		String temp;
@@ -43,9 +51,13 @@ public class MainClass {
 		System.out.println("s_kool_aid is : "+s_kool_aid);
 		System.out.println();
 		System.out.println();
+		**/
+		
 		/**
 		 * Tutorial #4 User Input
 		 */
+		
+		/**
 		Scanner scanner= new Scanner(System.in);
 		
 		System.out.println("What is your name?");
@@ -61,7 +73,28 @@ public class MainClass {
 		System.out.println("Hello "+name_input+"!!");
 		System.out.println("You are "+age+" years old.");
 		System.out.println("You like "+food+" !!");
-
+		**/
+		
+		/**
+		 * Tutorial #5 Expressions
+		 */
+		
+		/**
+		double friends =10;
+		friends++;
+		friends=(double)friends/3;
+		System.out.println(friends);
+		**/
+		
+		/**
+		 * Tutorial #6 GUI Intro
+		 */
+		
+		String name= JOptionPane.showInputDialog("Enter your name");
+		JOptionPane.showMessageDialog(null, "Hello "+name);
+		
+		double height= Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+		JOptionPane.showMessageDialog(null, "Your height is "+height+" m tall.");
 	}
 
 }
