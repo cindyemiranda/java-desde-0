@@ -90,11 +90,48 @@ public class MainClass {
 		 * Tutorial #6 GUI Intro
 		 */
 		
+		/**
 		String name= JOptionPane.showInputDialog("Enter your name");
 		JOptionPane.showMessageDialog(null, "Hello "+name);
 		
 		double height= Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
 		JOptionPane.showMessageDialog(null, "Your height is "+height+" m tall.");
+		**/
+		
+		/**
+		 * Tutorial #7 Math class
+		 */
+		
+		//double x = 3.14;
+		//double y = -10;
+		
+		//double z= Math.max(x, y); //largest number  of two
+		//double z= Math.min(x, y); //smallest number  of two
+		//double z= Math.abs(y); //absolute value
+		//double z= Math.sqrt(x); //square root 
+		//double z= Math.round(y); //round
+		//double z= Math.ceil(x); //round up
+		//double z= Math.floor(x); //round down
+		
+		//System.out.println(z);
+		
+		//Finding a hypotenuse 
+		
+		double x;
+		double y;
+		double z;
+		
+		Scanner scanner= new Scanner(System.in);
+		
+		System.out.println("Enter side x:");
+		x=scanner.nextDouble();
+		
+		System.out.println("Enter side y:");
+		y=scanner.nextDouble();
+		
+		z=Math.sqrt((x*x)+(y*y));
+		
+		System.out.println("The hypothenuse is "+z);
 	}
 
 }
