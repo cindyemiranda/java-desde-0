@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import javax.swing.JOptionPane;
+import java.util.Random;
 
 public class MainClass {
 
@@ -117,6 +118,7 @@ public class MainClass {
 		
 		//Finding a hypotenuse 
 		
+		/**
 		double x;
 		double y;
 		double z;
@@ -132,6 +134,18 @@ public class MainClass {
 		z=Math.sqrt((x*x)+(y*y));
 		
 		System.out.println("The hypothenuse is "+z);
+		**/
+		
+		/**
+		 * Tutorial #8 Random Classes
+		 */
+		Random random = new Random();
+		//int x = random.nextInt(6)+1;
+		//double y = random.nextDouble();
+		boolean z = random.nextBoolean();
+		System.out.println(z);
+		
+		
 	}
 
 }
