@@ -139,12 +139,34 @@ public class MainClass {
 		/**
 		 * Tutorial #8 Random Classes
 		 */
+		/**
 		Random random = new Random();
 		//int x = random.nextInt(6)+1;
 		//double y = random.nextDouble();
 		boolean z = random.nextBoolean();
 		System.out.println(z);
+		**/
 		
+		/**
+		 * Tutorial # 9 if statements
+		 */
+		int age= Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+		if(age >= 75) {
+			JOptionPane.showMessageDialog(null, "Ok boomer");
+			//System.out.println("Ok boomer");
+		}
+		else if (age>=18) {
+			JOptionPane.showMessageDialog(null, "you are an adult!");
+			//System.out.println("you are an adult!");
+		}
+		else if (age>=13) {
+			JOptionPane.showMessageDialog(null, "you are a teenager!");
+			//System.out.println("you are a teenager!");
+		}
+		else {
+			JOptionPane.showMessageDialog(null, "you are not an adult!!");
+			//System.out.println("you are not an adult!!");
+		}
 		
 	}
 
