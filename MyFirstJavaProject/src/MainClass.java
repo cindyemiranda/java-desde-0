@@ -148,8 +148,10 @@ public class MainClass {
 		**/
 		
 		/**
-		 * Tutorial # 9 if statements
+		 * Tutorial # 9:  if statements
 		 */
+		
+		/**
 		int age= Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
 		if(age >= 75) {
 			JOptionPane.showMessageDialog(null, "Ok boomer");
@@ -166,6 +168,38 @@ public class MainClass {
 		else {
 			JOptionPane.showMessageDialog(null, "you are not an adult!!");
 			//System.out.println("you are not an adult!!");
+		}
+		**/
+		
+		/**
+		 * Tutorial # 10: switches
+		 */
+		Scanner scanner= new Scanner(System.in);
+		String day= scanner.nextLine();
+		
+		switch (day) {
+		case "Sunday":
+			System.out.println("It is sunday");
+			break;
+		case "Monday":
+			System.out.println("It is monday");
+			break;
+		case "Tuesday":
+			System.out.println("It is tuesday");
+			break;
+		case "Wednesday":
+			System.out.println("It is wednesday");
+			break;
+		case "Thursday":
+			System.out.println("It is thursday");
+			break;
+		case "Friday":
+			System.out.println("It is Friday");
+			break;
+		case "Saturday":
+			System.out.println("It is Saturday");
+			break;
+		default: System.out.println(day+" is not a day.");
 		}
 		
 	}
