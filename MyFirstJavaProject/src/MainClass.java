@@ -7,16 +7,20 @@ public class MainClass {
 	public static void main(String[] args) {
 		
 		/**
+		 * Java tutorial for beginners
+		 */
+		
+		/*
 		System.out.println("I like fried Chicken!!!");
 		System.out.println("It tastes really good!!!");
 		System.out.println();
 		System.out.println();
-		**/
+		*/
 		
 		/**
 		 * Tutorial #2 Variables
 		 */
-		/**
+		/*
 		
 		int x = 123; // declarations
 		long xl= 1928292829282928232L;
@@ -33,13 +37,13 @@ public class MainClass {
 		System.out.println("Hello, my name is: "+name);
 		System.out.println();
 		System.out.println();
-		**/
+		*/
 		
 		/**
 		 * Tutorial #3 Swap two variable
 		 */
 		
-		/**
+		/*
 		String s_water="water";
 		String s_kool_aid= "Kool-aid";
 		String temp;
@@ -52,13 +56,13 @@ public class MainClass {
 		System.out.println("s_kool_aid is : "+s_kool_aid);
 		System.out.println();
 		System.out.println();
-		**/
+		*/
 		
 		/**
 		 * Tutorial #4 User Input
 		 */
 		
-		/**
+		/*
 		Scanner scanner= new Scanner(System.in);
 		
 		System.out.println("What is your name?");
@@ -74,30 +78,30 @@ public class MainClass {
 		System.out.println("Hello "+name_input+"!!");
 		System.out.println("You are "+age+" years old.");
 		System.out.println("You like "+food+" !!");
-		**/
+		*/
 		
 		/**
 		 * Tutorial #5 Expressions
 		 */
 		
-		/**
+		/*
 		double friends =10;
 		friends++;
 		friends=(double)friends/3;
 		System.out.println(friends);
-		**/
+		*/
 		
 		/**
 		 * Tutorial #6 GUI Intro
 		 */
 		
-		/**
+		/*
 		String name= JOptionPane.showInputDialog("Enter your name");
 		JOptionPane.showMessageDialog(null, "Hello "+name);
 		
 		double height= Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
 		JOptionPane.showMessageDialog(null, "Your height is "+height+" m tall.");
-		**/
+		*/
 		
 		/**
 		 * Tutorial #7 Math class
@@ -118,7 +122,7 @@ public class MainClass {
 		
 		//Finding a hypotenuse 
 		
-		/**
+		/*
 		double x;
 		double y;
 		double z;
@@ -134,24 +138,25 @@ public class MainClass {
 		z=Math.sqrt((x*x)+(y*y));
 		
 		System.out.println("The hypothenuse is "+z);
-		**/
+		*/
 		
 		/**
 		 * Tutorial #8 Random Classes
 		 */
-		/**
+		
+		/*
 		Random random = new Random();
 		//int x = random.nextInt(6)+1;
 		//double y = random.nextDouble();
 		boolean z = random.nextBoolean();
 		System.out.println(z);
-		**/
+		*/
 		
 		/**
 		 * Tutorial # 9:  if statements
 		 */
 		
-		/**
+		/*
 		int age= Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
 		if(age >= 75) {
 			JOptionPane.showMessageDialog(null, "Ok boomer");
@@ -169,11 +174,13 @@ public class MainClass {
 			JOptionPane.showMessageDialog(null, "you are not an adult!!");
 			//System.out.println("you are not an adult!!");
 		}
-		**/
+		*/
 		
 		/**
 		 * Tutorial # 10: switches
 		 */
+		
+		/*
 		Scanner scanner= new Scanner(System.in);
 		String day= scanner.nextLine();
 		
@@ -200,6 +207,59 @@ public class MainClass {
 			System.out.println("It is Saturday");
 			break;
 		default: System.out.println(day+" is not a day.");
+		}
+		*/
+		
+		/**
+		 * Tutorial # 11: Logical operators
+		 */
+		
+		/**
+		 * And operator (&&)
+		 */
+		/*
+		int temp =15;
+		if(temp >30) {
+			System.out.println("It is hot outside");
+		}
+		else if(temp >=20 && temp<=30) {
+			System.out.println("It is warm outside");
+		}
+		else {
+			System.out.println("It is cold outside");
+		}
+		*/
+		
+		/**
+		 * Or operator (||)
+		 */
+		/*
+		Scanner scanner= new Scanner(System.in);
+		System.out.println("You are playing a game! Press q or Q to quit.");
+		String answer=scanner.next();
+		
+		if (answer.equals("q") ||answer.equals("Q") ) {
+			System.out.println("You quit the game.");
+		}
+		else {
+			System.out.println("You want to play *pew pew*.");
+		}
+		*/
+		/**
+		 * != operator.
+		 */
+		Scanner scanner= new Scanner(System.in);
+		String answer=null;
+		while (true) {
+			System.out.println("You are playing a game! Press q or Q to quit.");
+			answer=scanner.next();
+			if (!answer.equals("q") && !answer.equals("Q") ) {
+				System.out.println("You want to play *pew pew*.");
+			}
+			else {
+				System.out.println("You quit the game.");
+				break;
+			}
 		}
 		
 	}
