@@ -265,7 +265,7 @@ public class MainClass {
 		}
 		*/
 		/**
-		 * Tutorial #11: While Loop. Infinitely.
+		 * Tutorial #12: While Loop. Infinitely.
 		 */
 		/* 
 		Scanner scanner = new Scanner(System.in);
@@ -290,12 +290,35 @@ public class MainClass {
 		 System.out.println("Hello "+name);
 		 */
 		 /**
-		  * Tutorial #12: For Loop. Limited amount of times
+		  * Tutorial #13: For Loop. Limited amount of times
 		  */
+		/*
 		  for(int index=10; index>=0; index-=2) {
 			  System.out.println(index);
 		  }
 		  System.out.println("Happy new year");
+		  */
+		/** 
+		 * Tutorial #14: Nested loops
+		 */
+		Scanner scanner= new Scanner(System.in);
+		int rows;
+		int columns;
+		String symbol = "";
+		
+		System.out.println("Enter the number of rows: ");
+		rows=scanner.nextInt();
+		System.out.println("Enter the number of columns: ");
+		columns=scanner.nextInt();
+		System.out.println("Enter symbol you use");
+		symbol= scanner.next();
+		
+		for(int i =1; i<=rows; i++) {
+			System.out.println();
+			for(int j =1; j<=columns; j++) {
+				System.out.print(symbol+" ");
+			}
+		}
 	}
 
 }
