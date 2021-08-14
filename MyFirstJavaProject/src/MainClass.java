@@ -248,6 +248,8 @@ public class MainClass {
 		/**
 		 * != operator.
 		 */
+		
+		/*
 		Scanner scanner= new Scanner(System.in);
 		String answer=null;
 		while (true) {
@@ -261,7 +263,34 @@ public class MainClass {
 				break;
 			}
 		}
+		*/
+		/**
+		 * Tutorial #11: While Loop.
+		 */
+		 
+		Scanner scanner = new Scanner(System.in);
+		 String name="";
 		
+		/**
+		 * do while:
+		 */
+		/*
+		do{
+		 System.out.println("Enter your name.");
+		 name = scanner.nextLine();
+		}while(name.isEmpty());
+		 */
+		
+		
+		 while(name.isEmpty()) {
+		 
+			 System.out.println("Enter your name.");
+			 name = scanner.nextLine();
+		 }
+		 System.out.println("Hello "+name);
+		 
+		 
+		 
 	}
 
 }
