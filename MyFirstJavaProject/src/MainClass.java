@@ -265,12 +265,12 @@ public class MainClass {
 		}
 		*/
 		/**
-		 * Tutorial #11: While Loop.
+		 * Tutorial #11: While Loop. Infinitely.
 		 */
-		 
+		/* 
 		Scanner scanner = new Scanner(System.in);
 		 String name="";
-		
+		*/
 		/**
 		 * do while:
 		 */
@@ -281,16 +281,21 @@ public class MainClass {
 		}while(name.isEmpty());
 		 */
 		
-		
-		 while(name.isEmpty()) {
+		/*
+		 * while(name.isEmpty()) {
 		 
 			 System.out.println("Enter your name.");
 			 name = scanner.nextLine();
 		 }
 		 System.out.println("Hello "+name);
-		 
-		 
-		 
+		 */
+		 /**
+		  * Tutorial #12: For Loop. Limited amount of times
+		  */
+		  for(int index=10; index>=0; index-=2) {
+			  System.out.println(index);
+		  }
+		  System.out.println("Happy new year");
 	}
 
 }
