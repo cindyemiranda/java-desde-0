@@ -372,7 +372,7 @@ public class MainClass {
 		/**
 		 * Tutorial #17 String methods
 		 */
-		
+		/*
 		String name= "Cindy";
 		
 		//boolean result=name.equalsIgnoreCase("Cindy");
@@ -385,7 +385,19 @@ public class MainClass {
 		//String result=name.trim();
 		String result=name.replace('i', 'a');
 		System.out.println(result);
+		*/
+		/**
+		 *  Tutorial #18 wrapper classes
+		 */
+		Boolean a = true;
+		Character b= '&';
+		Integer c= 123;
+		Double d= 3.14;
+		String e ="Cindy";
 		
+		if(a==true) {
+			System.out.println("This is "+a );
+		}
 	}
 
 }
