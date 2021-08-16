@@ -340,7 +340,7 @@ public class MainClass {
 		}
 		*/
 		/**
-		 * Tutorial #15 2D Arrays
+		 * Tutorial #16 2D Arrays
 		 */
 		
 		/*String [][]cars= new String[3][3];
@@ -355,6 +355,7 @@ public class MainClass {
 		cars[2][1]="Lamborgini";
 		cars[2][2]="Tesla";
 		*/
+		/*
 		String [][]cars= {	
 							{"Camaro", "Corvette", "Silverado"},
 							{"Mustang", "Ranger", "F-150"}, 
@@ -367,6 +368,24 @@ public class MainClass {
 				System.out.print(cars[i][j]+" ");
 			}
 		}
+		*/
+		/**
+		 * Tutorial #17 String methods
+		 */
+		
+		String name= "Cindy";
+		
+		//boolean result=name.equalsIgnoreCase("Cindy");
+		//int result= name.length();
+		//char result=name.charAt(4);
+		//int result=name.indexOf('C');
+		//boolean result=name.isEmpty();
+		//String result=name.toUpperCase();
+		//String result=name.toLowerCase();
+		//String result=name.trim();
+		String result=name.replace('i', 'a');
+		System.out.println(result);
+		
 	}
 
 }
