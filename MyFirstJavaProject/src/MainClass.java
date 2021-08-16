@@ -1,5 +1,7 @@
 import java.util.Scanner;
 import javax.swing.JOptionPane;
+
+import java.util.ArrayList;
 import java.util.Random;
 
 public class MainClass {
@@ -389,6 +391,7 @@ public class MainClass {
 		/**
 		 *  Tutorial #18 wrapper classes
 		 */
+		/*
 		Boolean a = true;
 		Character b= '&';
 		Integer c= 123;
@@ -397,6 +400,22 @@ public class MainClass {
 		
 		if(a==true) {
 			System.out.println("This is "+a );
+		}*/
+		/**
+		 *  Tutorial #19 ArrayLists
+		 */
+		ArrayList<String> food = new ArrayList<String>();
+		
+		food.add("Bimbab");
+		food.add("Ramen");
+		food.add("Kimchi");
+		
+		food.set(0, "Spaguetti");
+		food.remove(1);
+		//food.clear();
+		
+		for(int i=0; i<food.size(); i++) {
+			System.out.println(food.get(i));
 		}
 	}
 
