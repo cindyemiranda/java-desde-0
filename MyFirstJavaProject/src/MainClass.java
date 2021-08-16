@@ -301,6 +301,7 @@ public class MainClass {
 		/** 
 		 * Tutorial #14: Nested loops
 		 */
+		/*
 		Scanner scanner= new Scanner(System.in);
 		int rows;
 		int columns;
@@ -318,6 +319,23 @@ public class MainClass {
 			for(int j =1; j<=columns; j++) {
 				System.out.print(symbol+" ");
 			}
+		}
+		*/
+		/**
+		 * Tutorial #15 Arrays
+		 */
+		/*
+		String[]  cars = {"Camaro", "corvette", "tesla", "BMW"};
+		cars[0]= "Mustang";
+		*/
+		String []cars= new String[3];
+		
+		cars[0]="Camaro";
+		cars[1]="Corvette";
+		cars[2]="Tesla";
+		
+		for(int i=0; i<cars.length; i++) {
+			System.out.println(cars[i]);
 		}
 	}
 
