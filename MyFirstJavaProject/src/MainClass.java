@@ -447,10 +447,11 @@ public class MainClass {
 		*/
 		
 		/**
-		 * Tutorial #21 For each
+		 * Tutorial #21 For each loop
 		 */
 		//String[] animals = {"cat", "dog", "rat", "bird", "bear", "bee"};
 		
+		/*
 		ArrayList<String> animals = new ArrayList<String>();
 		
 		animals.add("cat");
@@ -462,6 +463,28 @@ public class MainClass {
 		for(String i : animals) {
 			System.out.println(i);
 		}
+		*/
+		/**
+		 * Tutorial #22 Methods
+		 */
+		int age=23;
+		hello("Cindy", age);
+		
+		int x =3;
+		int y=4;
+		int z=add(x,y);
+		System.out.println(z);
+		
 	}
-
+	
+	static int add(int x, int y) {
+		int result=0;
+		result=x+y;
+		return result;
+	}
+	
+	static void hello(String x, int age) {
+		System.out.println("Hello "+x+"!");
+		System.out.println("You are "+age+" years old!");
+	}
 }
