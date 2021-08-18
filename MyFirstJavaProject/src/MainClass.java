@@ -467,6 +467,7 @@ public class MainClass {
 		/**
 		 * Tutorial #22 Methods
 		 */
+		/*
 		int age=23;
 		hello("Cindy", age);
 		
@@ -474,17 +475,50 @@ public class MainClass {
 		int y=4;
 		int z=add(x,y);
 		System.out.println(z);
+		*/
+		
+		/**
+		 *  Tutorial #23 Overloaded methods
+		 */
+		int x = add(1,2,5,77);
+		double y = add(1.44,2.5,5.22,77.12);
+		System.out.println(x+" "+y);
 		
 	}
 	
 	static int add(int x, int y) {
+		System.out.println("overloaded method 1");
 		int result=0;
 		result=x+y;
 		return result;
 	}
 	
-	static void hello(String x, int age) {
-		System.out.println("Hello "+x+"!");
-		System.out.println("You are "+age+" years old!");
+	static int add(int x, int y, int z) {
+		System.out.println("overloaded method 2");
+		return x + y + z;
 	}
+	
+	static int add(int x, int y, int z, int a) {
+		System.out.println("overloaded method 3");
+		return x + y + z + a;
+	}
+	
+	static double add(double x, double y) {
+		System.out.println("overloaded method 1");
+		double result=0;
+		result=x+y;
+		return result;
+	}
+	
+	static double add(double x, double y, double z) {
+		System.out.println("overloaded method 2");
+		return x + y + z;
+	}
+	
+	static double add(double x, double y, double z, double a) {
+		System.out.println("overloaded method 3");
+		return x + y + z + a;
+	}
+	
+	
 }
