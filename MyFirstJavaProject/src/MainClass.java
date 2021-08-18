@@ -422,7 +422,7 @@ public class MainClass {
 		/**
 		 *  Tutorial #20 ArrayLists 2D
 		 */
-		
+		/*
 		ArrayList<ArrayList<String>> groceryList = new ArrayList();
 		
 		ArrayList<String> bakeryList= new ArrayList();
@@ -444,6 +444,24 @@ public class MainClass {
 		groceryList.add(drinksList);
 		
 		System.out.println(groceryList.get(2).get(1));
+		*/
+		
+		/**
+		 * Tutorial #21 For each
+		 */
+		//String[] animals = {"cat", "dog", "rat", "bird", "bear", "bee"};
+		
+		ArrayList<String> animals = new ArrayList<String>();
+		
+		animals.add("cat");
+		animals.add("dog");
+		animals.add("rat");
+		animals.add("bird");
+		animals.add("bee");
+		
+		for(String i : animals) {
+			System.out.println(i);
+		}
 	}
 
 }
