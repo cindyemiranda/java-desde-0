@@ -489,7 +489,9 @@ public class MainClass {
 		/**
 		 * Tutorial #24 printf
 		 */
+		/*
 		//System.out.printf("%d This is a format string", 123);
+		
 		boolean myBoolean = true;
 		char myChar = '!';
 		String myString = "Cindy";
@@ -515,7 +517,13 @@ public class MainClass {
 		
 		//flags
 		System.out.printf("You have this much money %,f", myDouble);
-		
+		*/
+		/**
+		 * Tutorial #25 Final keyword
+		 */
+		double PI=3.14159; //this value cannot be changed later.
+		//PI = 3.2 //Produces an error.
+		System.out.println(PI);
 	}
 	
 	static int add(int x, int y) {
