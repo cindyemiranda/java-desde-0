@@ -487,7 +487,7 @@ public class MainClass {
 		*/
 		
 		/**
-		 * Tutorial #23 printf
+		 * Tutorial #24 printf
 		 */
 		//System.out.printf("%d This is a format string", 123);
 		boolean myBoolean = true;
