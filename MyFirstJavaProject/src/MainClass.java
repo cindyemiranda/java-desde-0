@@ -521,9 +521,19 @@ public class MainClass {
 		/**
 		 * Tutorial #25 Final keyword
 		 */
+		/*
 		double PI=3.14159; //this value cannot be changed later.
 		//PI = 3.2 //Produces an error.
 		System.out.println(PI);
+		*/
+		/**
+		 * Turorial #26 OOP
+		 */
+		Car myCar = new Car();
+		System.out.println(myCar.model);
+		System.out.println(myCar.make);
+		myCar.drive();
+		myCar.breaks();
 	}
 	
 	static int add(int x, int y) {
