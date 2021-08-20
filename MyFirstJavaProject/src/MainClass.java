@@ -480,9 +480,41 @@ public class MainClass {
 		/**
 		 *  Tutorial #23 Overloaded methods
 		 */
+		/*
 		int x = add(1,2,5,77);
 		double y = add(1.44,2.5,5.22,77.12);
 		System.out.println(x+" "+y);
+		*/
+		
+		/**
+		 * Tutorial #23 printf
+		 */
+		//System.out.printf("%d This is a format string", 123);
+		boolean myBoolean = true;
+		char myChar = '!';
+		String myString = "Cindy";
+		int myInt = 22;
+		double myDouble=1000;
+		//[conversion - caracter]
+		
+		//System.out.printf("%b", myBoolean);
+		//System.out.printf("%c", myChar);
+		//System.out.printf("%s", myString);
+		//System.out.printf("%d", myInt);
+		//System.out.printf("%f", myDouble);
+		
+		//[width]
+		
+		//minimum number of characters to be written as output
+		System.out.printf("Hello %-10s",myString);
+		System.out.println();
+		
+		//precision
+		System.out.printf("You have this much money %.2f", myDouble);
+		System.out.println();
+		
+		//flags
+		System.out.printf("You have this much money %,f", myDouble);
 		
 	}
 	
