@@ -529,11 +529,23 @@ public class MainClass {
 		/**
 		 * Turorial #26 OOP
 		 */
+		/*
 		Car myCar = new Car();
 		System.out.println(myCar.model);
 		System.out.println(myCar.make);
 		myCar.drive();
 		myCar.breaks();
+		*/
+		/**
+		 * Turorial #27 Constructors
+		 */
+		Human human1 = new Human("Cindy", 42, 76.9);
+		Human human2 = new Human("Maria", 33,46.8);
+		
+		System.out.println(human2.name);
+		
+		human1.eat();
+		human2.drink();
 	}
 	
 	static int add(int x, int y) {
