@@ -539,6 +539,7 @@ public class MainClass {
 		/**
 		 * Turorial #27 Constructors
 		 */
+		/*
 		Human human1 = new Human("Cindy", 42, 76.9);
 		Human human2 = new Human("Maria", 33,46.8);
 		
@@ -546,6 +547,11 @@ public class MainClass {
 		
 		human1.eat();
 		human2.drink();
+		*/
+		/**
+		 * Tutorial #28 variable scope
+		 */
+		DiceRoller diceRoller= new DiceRoller();
 	}
 	
 	static int add(int x, int y) {
