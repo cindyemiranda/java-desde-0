@@ -551,7 +551,22 @@ public class MainClass {
 		/**
 		 * Tutorial #28 variable scope
 		 */
-		DiceRoller diceRoller= new DiceRoller();
+		//DiceRoller diceRoller= new DiceRoller();
+		/**
+		 * Tutorial #29 overloaded constructors 
+		 */
+		
+		Pizza pizza= new Pizza("thick crust", "tomato", "mozzarella", "pepperoni");
+		Pizza pizza1= new Pizza("thick crust", "tomato", "mozzarella");
+		Pizza pizza2= new Pizza("thick crust", "tomato");
+		Pizza pizza3= new Pizza("thick crust");
+		System.out.println("These are the ingredients of your pizzas");
+		
+		System.out.println(pizza.bread+" "+pizza.cheese+" "+pizza.sauce+" "+pizza.topping);
+		System.out.println(pizza1.bread+" "+pizza1.cheese+" "+pizza1.sauce+" "+pizza1.topping);
+		System.out.println(pizza2.bread+" "+pizza2.cheese+" "+pizza2.sauce+" "+pizza2.topping);
+		System.out.println(pizza3.bread+" "+pizza3.cheese+" "+pizza3.sauce+" "+pizza3.topping);
+		
 	}
 	
 	static int add(int x, int y) {
