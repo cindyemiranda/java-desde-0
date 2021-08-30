@@ -555,7 +555,7 @@ public class MainClass {
 		/**
 		 * Tutorial #29 overloaded constructors 
 		 */
-		
+		/*
 		Pizza pizza= new Pizza("thick crust", "tomato", "mozzarella", "pepperoni");
 		Pizza pizza1= new Pizza("thick crust", "tomato", "mozzarella");
 		Pizza pizza2= new Pizza("thick crust", "tomato");
@@ -566,6 +566,18 @@ public class MainClass {
 		System.out.println(pizza1.bread+" "+pizza1.cheese+" "+pizza1.sauce+" "+pizza1.topping);
 		System.out.println(pizza2.bread+" "+pizza2.cheese+" "+pizza2.sauce+" "+pizza2.topping);
 		System.out.println(pizza3.bread+" "+pizza3.cheese+" "+pizza3.sauce+" "+pizza3.topping);
+		*/
+		/**
+		 * Tutorial #30 toString Methods
+		 */
+		Car car=new Car();
+		
+		System.out.println(car.make);
+		System.out.println(car.model);
+		System.out.println(car.color);
+		System.out.println(car.year);
+		
+		System.out.println(car.toString());
 		
 	}
 	

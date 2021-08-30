@@ -12,4 +12,8 @@ public class Car {
 	void breaks() {
 		System.out.println("You stem on the breaks");
 	}
+	public String toString() {
+		String myString = make+"\n"+model+"\n"+color+"\n"+year;
+		return myString;		
+	}
 }
