@@ -570,6 +570,7 @@ public class MainClass {
 		/**
 		 * Tutorial #30 toString Methods
 		 */
+		/*
 		Car car=new Car();
 		
 		System.out.println(car.make);
@@ -578,6 +579,24 @@ public class MainClass {
 		System.out.println(car.year);
 		
 		System.out.println(car.toString());
+		*/
+		/**
+		 * Tutorial #31 array of objects
+		 */
+		//Food[] refrigerator= new Food[3];
+		Food food1= new Food("Pizza");
+		Food food2= new Food("Hamburger");
+		Food food3= new Food("Hotdog");
+		
+		Food[] refrigerator= {food1, food2, food3};
+		refrigerator[0]=food1;
+		refrigerator[1]=food2;
+		refrigerator[2]=food3;
+		
+		System.out.println(refrigerator[0].name);
+		System.out.println(refrigerator[1].name);
+		System.out.println(refrigerator[2].name);
+		
 		
 	}
 	
