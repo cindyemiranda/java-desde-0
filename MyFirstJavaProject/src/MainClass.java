@@ -583,6 +583,7 @@ public class MainClass {
 		/**
 		 * Tutorial #31 array of objects
 		 */
+		/*
 		//Food[] refrigerator= new Food[3];
 		Food food1= new Food("Pizza");
 		Food food2= new Food("Hamburger");
@@ -596,6 +597,15 @@ public class MainClass {
 		System.out.println(refrigerator[0].name);
 		System.out.println(refrigerator[1].name);
 		System.out.println(refrigerator[2].name);
+		*/
+		/**
+		 * Tutorial #32 object passing
+		 */
+		Garage garage= new Garage();
+		Car car1= new Car("BMW");
+		Car car2= new Car("Tesla");
+		garage.park(car1);
+		garage.park(car2);
 		
 		
 	}
