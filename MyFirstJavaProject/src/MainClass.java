@@ -601,11 +601,22 @@ public class MainClass {
 		/**
 		 * Tutorial #32 object passing
 		 */
+		/*
 		Garage garage= new Garage();
 		Car car1= new Car("BMW");
 		Car car2= new Car("Tesla");
 		garage.park(car1);
 		garage.park(car2);
+		*/
+		/**
+		 * Tutorial #33 static keywords 
+		 */
+		Friends friend1= new Friends("Spongebob");
+		Friends friend2= new Friends("Patric");
+		Friends friend3= new Friends("Squidward");
+		Friends friend4= new Friends("Sandy");
+		
+		Friends.displayFriends();
 		
 		
 	}
