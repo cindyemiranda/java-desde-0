@@ -611,14 +611,28 @@ public class MainClass {
 		/**
 		 * Tutorial #33 static keywords 
 		 */
+		/*
 		Friends friend1= new Friends("Spongebob");
 		Friends friend2= new Friends("Patric");
 		Friends friend3= new Friends("Squidward");
 		Friends friend4= new Friends("Sandy");
 		
 		Friends.displayFriends();
+		*/
+		/**
+		 * Tutorial #34 inheritance 
+		 */
+		Car car= new Car("Tesla");
+		car.go();
 		
+		Bicycle bike= new Bicycle();
+		bike.stop();
 		
+		System.out.println(car.speed);
+		System.out.println(bike.speed);
+		
+		System.out.println(car.doors);
+		System.out.println(bike.pedals);
 	}
 	
 	static int add(int x, int y) {
