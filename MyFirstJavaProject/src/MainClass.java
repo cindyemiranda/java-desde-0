@@ -622,6 +622,7 @@ public class MainClass {
 		/**
 		 * Tutorial #34 inheritance 
 		 */
+		/*
 		Car car= new Car("Tesla");
 		car.go();
 		
@@ -633,6 +634,15 @@ public class MainClass {
 		
 		System.out.println(car.doors);
 		System.out.println(bike.pedals);
+		*/
+		/**
+		 * Tutorial # 35 Overriding
+		 */
+		Animal animal= new Animal();
+		Dog dog = new Dog();
+		dog.speak();
+		animal.speak();
+		
 	}
 	
 	static int add(int x, int y) {
