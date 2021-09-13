@@ -638,10 +638,19 @@ public class MainClass {
 		/**
 		 * Tutorial # 35 Overriding
 		 */
+		/*
 		Animal animal= new Animal();
 		Dog dog = new Dog();
 		dog.speak();
 		animal.speak();
+		*/
+		/**Tutorial # 36 super keyword
+		 * 
+		 */
+		Hero hero1= new Hero("Batman", 42, "$$$");
+		Hero hero2= new Hero("Superman", 42, "Everything");
+		System.out.println(hero1.toString());
+		System.out.println(hero2.toString());
 		
 	}
 	
