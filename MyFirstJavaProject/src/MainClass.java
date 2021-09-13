@@ -647,11 +647,18 @@ public class MainClass {
 		/**Tutorial # 36 super keyword
 		 * 
 		 */
+		/*
 		Hero hero1= new Hero("Batman", 42, "$$$");
 		Hero hero2= new Hero("Superman", 42, "Everything");
 		System.out.println(hero1.toString());
 		System.out.println(hero2.toString());
-		
+		*/
+		/**Tutorial # 37 abstract keyword
+		 * 
+		 */
+		//Vehicle vehicle= new Vehicle();
+		Car car = new Car("Bicycle");
+		car.toGo();
 	}
 	
 	static int add(int x, int y) {

@@ -21,4 +21,9 @@ public class Car extends Vehicle {
 		String myString = make+"\n"+model+"\n"+color+"\n"+year;
 		return myString;		
 	}
+	@Override
+	void toGo() {
+		System.out.println("The driver is driving this vehicle");
+		
+	}
 }
